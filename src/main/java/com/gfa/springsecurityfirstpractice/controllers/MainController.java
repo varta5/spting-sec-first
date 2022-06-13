@@ -13,4 +13,16 @@ public class MainController {
     public String greetStranger() {
         return "<h1>Hello Stranger!</h1>";
     }
+
+    @RequestMapping(path = "/user", method = RequestMethod.GET)
+    @ResponseBody
+    public String greetUser() {
+        return "<h1>Hello User!</h1>";
+    }
+
+    @RequestMapping(path = "/admin", method = RequestMethod.GET)
+    @ResponseBody
+    public String greetAdmin() {
+        return "<h1>Hello Admin!</h1>";
+    }
 }
