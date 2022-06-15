@@ -29,7 +29,7 @@ public class HomeController {
         this.userDetailsService = userDetailsService;
     }
 
-    @RequestMapping(path = "/", method = RequestMethod.GET)
+    @RequestMapping(path = "/hello", method = RequestMethod.GET)
     public String showHome() {
         return "<h1>Welcome</h1>";
     }
