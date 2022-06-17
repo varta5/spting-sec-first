@@ -24,39 +24,19 @@ public class Example {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
     public int getaNumber() {
         return aNumber;
-    }
-
-    public void setaNumber(int aNumber) {
-        this.aNumber = aNumber;
     }
 
     public String getText() {
         return text;
     }
 
-    public void setText(String text) {
-        this.text = text;
-    }
-
     public boolean isAwesome() {
         return awesome;
     }
 
-    public void setAwesome(boolean awesome) {
-        this.awesome = awesome;
-    }
-
     public List<String> getListOfWords() {
         return listOfWords;
-    }
-
-    public void setListOfWords(List<String> listOfWords) {
-        this.listOfWords = listOfWords;
     }
 }
