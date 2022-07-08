@@ -9,16 +9,16 @@ public class HomeResource {
 
     @RequestMapping(path = {"/", "/main"}, method = RequestMethod.GET)
     public String greetStranger() {
-        return "<h1>Hello Stranger!</h2>";
+        return "Hello Stranger!";
     }
 
     @RequestMapping(path = "/user", method = RequestMethod.GET)
     public String greetUser() {
-        return "<h1>Hello User!</h2>";
+        return "Hello User!";
     }
 
     @RequestMapping(path = "/admin", method = RequestMethod.GET)
     public String greetAdmin() {
-        return "<h1>Hello Admin!</h2>";
+        return "Hello Admin!";
     }
 }
